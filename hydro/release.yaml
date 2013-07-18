@@ -444,7 +444,7 @@ repositories:
     tags:
       release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/hokuyo_node-release.git
-    version: 1.7.7-0
+    version: 1.7.6-1
   household_objects_database_msgs:
     tags:
       release: release/hydro/{package}/{version}
@@ -673,7 +673,7 @@ repositories:
     tags:
       release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/moveit_ikfast-release.git
-    version: 3.0.4-0
+    version: 3.0.3-0
   moveit_metapackages:
     packages:
       moveit_full:
@@ -1110,7 +1110,7 @@ repositories:
     tags:
       release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/robot_model-release.git
-    version: 1.10.13-0
+    version: 1.10.12-0
   robot_pose_publisher:
     tags:
       release: release/hydro/{package}/{version}
@@ -1131,7 +1131,7 @@ repositories:
     tags:
       release: release/hydro/{package}/{version}
     url: https://github.com/yujinrobot-release/rocon_app_platform-release.git
-    version: 0.5.1-0
+    version: 0.5.2-0
   rocon_concert:
     packages:
       concert_conductor:
@@ -1142,7 +1142,7 @@ repositories:
     tags:
       release: release/hydro/{package}/{version}
     url: https://github.com/yujinrobot-release/rocon_concert-release.git
-    version: 0.5.2-0
+    version: 0.5.3-0
   rocon_msgs:
     packages:
       concert_msgs:
@@ -1153,7 +1153,7 @@ repositories:
     tags:
       release: release/hydro/{package}/{version}
     url: https://github.com/yujinrobot-release/rocon_msgs-release.git
-    version: 0.5.1-0
+    version: 0.5.2-0
   rocon_multimaster:
     packages:
       redis:
@@ -1169,7 +1169,7 @@ repositories:
     tags:
       release: release/hydro/{package}/{version}
     url: https://github.com/yujinrobot-release/rocon_multimaster-release.git
-    version: 0.5.2-0
+    version: 0.5.3-0
   rocon_rqt_plugins:
     packages:
       rocon_gateway_graph:
@@ -1178,7 +1178,7 @@ repositories:
     tags:
       release: release/hydro/{package}/{version}
     url: https://github.com/yujinrobot-release/rocon_rqt_plugins-release.git
-    version: 0.5.1-0
+    version: 0.5.2-0
   rocon_tutorials:
     packages:
       chatter_concert:
@@ -1190,6 +1190,7 @@ repositories:
       turtle_race_controllers:
       turtle_stroll:
     url: https://github.com/yujinrobot-release/rocon_tutorials-release.git
+    version: 0.5.4-0
   ros:
     packages:
       mk:
@@ -1257,6 +1258,24 @@ repositories:
         subfolder: utilities/roswtf
       std_srvs:
         subfolder: messages/std_srvs
+      test_rosbag:
+        subfolder: test/test_rosbag
+      test_roscpp:
+        subfolder: test/test_roscpp
+      test_rosgraph:
+        subfolder: test/test_rosgraph
+      test_roslaunch:
+        subfolder: test/test_roslaunch
+      test_roslib_comm:
+        subfolder: test/test_roslib_comm
+      test_rosmaster:
+        subfolder: test/test_rosmaster
+      test_rosparam:
+        subfolder: test/test_rosparam
+      test_rospy:
+        subfolder: test/test_rospy
+      test_rosservice:
+        subfolder: test/test_rosservice
       topic_tools:
         subfolder: tools/topic_tools
       xmlrpcpp:
@@ -1282,10 +1301,9 @@ repositories:
     version: 0.4.0-2
   ros_controllers:
     packages:
+      controllers_msgs:
       effort_controllers:
-      force_torque_sensor_controller:
       forward_command_controller:
-      imu_sensor_controller:
       joint_state_controller:
       position_controllers:
       ros_controllers:
@@ -1294,7 +1312,7 @@ repositories:
     tags:
       release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/ros_controllers-release.git
-    version: 0.5.0-0
+    version: 0.4.0-1
   ros_http_video_streamer:
     url: https://github.com/ros-gbp/ros_http_video_streamer-release.git
   ros_tutorials:
@@ -1349,7 +1367,7 @@ repositories:
     tags:
       release: release/hydro/{package}/{version}
     url: https://github.com/yujinrobot-release/rosjava_tools-release.git
-    version: 0.1.8-0
+    version: 0.1.7-0
   roslisp:
     tags:
       release: release/hydro/{package}/{version}
@@ -1378,7 +1396,7 @@ repositories:
     tags:
       release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/rosserial-release
-    version: 0.5.2-0
+    version: 0.5.1-0
   rqt:
     packages:
       rqt:
@@ -1649,7 +1667,7 @@ repositories:
     tags:
       release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/urdfdom-release.git
-    version: 0.2.8-1
+    version: 0.2.8-0
   urdfdom_headers:
     status: maintained
     tags:
@@ -1708,11 +1726,10 @@ repositories:
       cv_bridge:
       image_geometry:
       vision_opencv:
-    status: maintained
     tags:
       release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/vision_opencv-release.git
-    version: 1.10.7-0
+    version: 1.10.6-0
   visp:
     url: https://github.com/laas/visp-release.git
   visualization-tutorials:
